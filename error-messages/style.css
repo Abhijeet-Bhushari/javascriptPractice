@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    position: relative;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    background-color: rgb(244, 244, 244);
+}
+
+.container{
+    background-color: white;
+    width: 340px;
+    padding: 20px 20px;
+    align-self: center;
+    margin: auto;
+    text-align: center;
+    border-radius: 0.5em;
+}
+
+.container .image{
+    width: 320px;
+    aspect-ratio: inherit;
+    border-radius: 0.5em;
+}
+
+.container p{
+    font-size: 30px;
+    margin: 0.2em;
+}
+
+.container #error{
+    font-size: 15px;
+    color: red;
+    display: none;
+    margin: 0.4em 0;
+}
+
+button{
+    border-radius: 2em;
+    padding: 0.3em 1em;
+    background-color: white;
+    font-size: 20px;
+}
+
+button:hover{
+    scale: 1.05;
+    transition: 0.3s;
+    cursor: pointer;
+}
