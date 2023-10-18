@@ -1,11 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    
-</body>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&family=Teko&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./index.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="screen"></div>
+      <div class="calculator">
+        <div class="column">
+          <div class="key" onclick="calc(7)">7</div>
+          <div class="key" onclick="calc(8)">8</div>
+          <div class="key" onclick="calc(9)">9</div>
+          <div class="key" onclick="calc('+')">+</div>
+        </div>
+        <div class="column">
+          <div class="key" onclick="calc(4)">4</div>
+          <div class="key" onclick="calc(5)">5</div>
+          <div class="key" onclick="calc(6)">6</div>
+          <div class="key" onclick="calc('-')">-</div>
+        </div>
+        <div class="column">
+          <div class="key" onclick="calc(1)">1</div>
+          <div class="key" onclick="calc(2)">2</div>
+          <div class="key" onclick="calc(3)">3</div>
+          <div class="key" onclick="calc('*')">*</div>
+        </div>
+        <div class="column">
+          <div class="key" onclick="calc('C')">C</div>
+          <div class="key" onclick="calc(0)">0</div>
+          <div class="key" onclick="calc('=')">=</div>
+          <div class="key" onclick="calc('/')">/</div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
