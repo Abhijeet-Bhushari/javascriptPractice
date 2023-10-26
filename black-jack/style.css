@@ -1,0 +1,64 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100%;
+}
+body{
+    background: rgb(2, 115, 0) radial-gradient(transparent 60%, rgba(0, 0, 0, 0.3) 100%);
+    font-family: Arial, Helvetica, sans-serif
+}
+h1{
+    text-align: center;
+    color: goldenrod;
+    margin-top: 2em;
+    margin-bottom: 0;
+    font-size: 4em;
+}
+.game{
+    margin: auto;
+    width: fit-content;
+    padding: 2em;
+}
+
+.game p{
+    color: white;
+    font-size: 2em;
+    font-style: italic;
+    text-align: center;
+    font-weight: 600;
+}
+
+.btn{
+    border: none;
+    width: 280px;
+    display: block;
+    margin: 0.5em auto;
+    padding: 0.2em;
+    color: rgb(11, 110, 9);
+    background-color: goldenrod;
+    border-radius: 5px;
+    font-size: 2em;
+    font-weight: 700;
+    transition: 0.3s;
+}
+
+#new-card{
+    display: none;
+}
+
+#restart{
+    display: none;
+}
+
+#buy-chips{
+    display: none;
+}
+
+.btn:hover{
+    scale: 1.05;
+}
+
+.btn:active{
+    background-color: rgb(219, 193, 142);
+}

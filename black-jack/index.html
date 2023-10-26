@@ -3,11 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href = "./style.css">
     <script src = "./index.js" defer></script>
     <title>Black-Jack</title>
 </head>
 <body>
-    
+    <h1>Blackjack</h1>
+    <div class="game">
+        <p id="message">Want to play a new round?</p>
+        <p id="cards"> Cards: </p>
+        <p id="sum"> Sum: </p>
+        <button onclick = "startGame()" class="btn" id="start">START GAME</button>
+        <button onclick = "newCard()" class="btn" id="new-card">NEW CARD</button>
+        <p id="player"></p>
+        <button onclick = "restart()" class="btn" id="restart">RESTART</button>
+        <button onclick = "buyChips()" class="btn" id="buy-chips">BUY $100 chips</button>
+    </div>
 </body>
 </html>
